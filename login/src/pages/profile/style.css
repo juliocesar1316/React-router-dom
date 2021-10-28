@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.perfil {
+  display: flex;
+  min-height: 100vh;
+}
+.links {
+  background-color: rgba(255, 115, 0, 0.8);
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 350px;
+  margin-bottom: 10px;
+}
+.dados {
+  width: 350px;
+}
+.profile p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+span {
+  font-size: 20px;
+}
+.follow {
+  display: flex;
+  gap: 30px;
+}
+.name {
+  margin-bottom: 0;
+}
